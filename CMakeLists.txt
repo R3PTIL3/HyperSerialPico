@@ -6,7 +6,7 @@ if (NOT PICO_PROGRAM_MAIN_ENTRY)
 	# Turn this setting to ON if your rp2040 is not detected after firmware upload and reset
 	set(BOOT_WORKAROUND OFF)
 
-	# Default output data pin for the non-SPI LED strips (only for sk6812/ws2812b)
+	# ? Default output data pin for the non-SPI LED strips (only for sk6812/ws2812b)
 	set(OUTPUT_DATA_PIN 16)
 	set(OUTPUT_DATA_PIN 17)
 
@@ -16,10 +16,10 @@ if (NOT PICO_PROGRAM_MAIN_ENTRY)
 	set(OUTPUT_SPI_CLOCK_PIN 2)
 	set(OUTPUT_SPI_INTERFACE spi0)
 
-	# Use multi-segment, starting index of second led strip or OFF to disable
+	# ? Use multi-segment, starting index of second led strip or OFF to disable
 	set(SECOND_SEGMENT_INDEX 133)
 
-	# If multi-segment is used and it's reversed, set this option to ON to enable reversing
+	# ? If multi-segment is used and it's reversed, set this option to ON to enable reversing
 	set(SECOND_SEGMENT_REVERSED ON)
 
 	# User configuration section ends here
